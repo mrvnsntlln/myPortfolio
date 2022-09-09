@@ -1,10 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 const colors= require('tailwindcss/colors')
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   content: [ "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+      },
       colors:{
         primary: '#202225',
         secondary: '#5865f2',

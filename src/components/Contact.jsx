@@ -30,8 +30,8 @@ const Contact = () => {
       };
 
   return (
-    <div id='contact' className='flex md:flex-row flex-col items-center justify-center min-h-screen w-full  bg-gray-800 md:relative p-10'>
-        <div className='flex flex-col items-start justify-center bg-gray-400 h-[600px] w-[400px] md:w-[500px] p-10 rounded-3xl md:absolute md:left-72 my-4 md:my-0' data-aos="fade-right">
+    <div id='contact' className='flex lg:flex-row flex-col items-center justify-center min-h-screen w-full  bg-gray-800 lg:relative p-10'>
+        <div className='flex flex-col items-start justify-center bg-gray-400 h-[400px] w-[350px] lg:w-[500px] lg:h-[500px] p-10 rounded-3xl lg:absolute lg:left-72 my-4 lg:my-0' data-aos="zoom-in-right">
             <p className='text-5xl font-black'>Message Me!</p>
             <div className='flex flex-col justify-start font-bold'>
                 <div className='flex flex-row text-xl mt-2'>
@@ -48,10 +48,10 @@ const Contact = () => {
                 </div>
             </div>
         </div>
-        <div className='flex flex-col justify-center items-start h-[500px] w-[400px] bg-black p-10 rounded-3xl md:absolute md:left-[740px] my-4 md:my-0' data-aos="fade-left">
+        <div className='flex flex-col justify-center items-start h-[450px] w-[300px] lg:h-[450px] lg:w-[400px] bg-black p-10 rounded-3xl lg:absolute lg:left-[740px] my-4 lg:my-0' data-aos="zoom-in-left">
             <form ref={form}
                 onSubmit= {sendEmail}
-                className='ml-1 text-white flex flex-col justify-start items-start gap-y-4 w-full'>
+                className='ml-1 text-white flex flex-col justify-start items-start gap-y-5 w-full'>
                 <p className='text-2xl font-bold'>GET IN TOUCH</p>
                 <input type="text" name='from_name' placeholder='Your Name' className='rounded-md w-full p-2 text-black' required/>
                 <input type="email" name='user_email' placeholder='Email Here' className='rounded-md w-full p-2 text-black' required/>

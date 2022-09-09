@@ -9,9 +9,9 @@ const Projects = () => {
     }, []);
 
   return (
-    <div id='projects' className='bg-white flex md:flex-row flex-col p-2 md:p-10'>
-        <div className='flex md:flex-col flex-row justify-center items-end w-300px md:w-[450px] my-3 md:my-0' data-aos="fade-in">
-            <p className='text-4xl font-semibold hidden md:block md:mr-56'>My</p>
+    <div id='projects' className=' w-full flex lg:flex-row flex-col p-2 md:p-10'>
+        <div className='flex md:flex-col flex-row justify-center items-end w-300px md:w-[450px] m-5 lg:my-0' data-aos="fade-in">
+            <p className='text-4xl font-semibold hidden lg:block md:mr-56'>My</p>
             <p className='text-7xl font-bold'>Projects</p>
         </div>
         <Swiper
@@ -19,7 +19,7 @@ const Projects = () => {
             grabCursor={true}
             modules={[EffectCards]}
             className="mySwiper"
-            data-aos="fade-left"
+            data-aos="zoom-in-left"
         >
         
             <SwiperSlide className=' bg-primary flex flex-col'>
@@ -27,9 +27,9 @@ const Projects = () => {
                     <a href='https://mrvnsntlln.github.io/'><i className='fa-solid fa-eye fa-beat-fade'></i></a>
                     <p className='text-lg font-bold'>View Website</p>
                 </div>
-                <div className='flex flex-col md:flex-row gap-2 md:p-3 md:mt-10'>
-                    <img src="/img/adventour1.png" alt="adventour" className='rounded-3xl h-[170px] w-[270px] md:h-[300px] md:w-[300px]'/>
-                    <img src="/img/adventour2.png" alt="adventour" className='rounded-3xl h-[170px] w-[270px] md:h-[300px] md:w-[300px]'/>
+                <div className='flex flex-col lg:flex-row gap-2 lg:p-3 lg:mt-10'>
+                    <img src="/img/firstPort.PNG" alt="adventour" className='rounded-3xl h-[170px] w-[270px] lg:h-[300px] lg:w-[300px]'/>
+                    <img src="/img/secondPort.PNG" alt="adventour" className='rounded-3xl h-[170px] w-[270px] lg:h-[300px] lg:w-[300px]'/>
                 </div>
                 <div>
                     <p className='text-center text-xl'>-Multipage Responsive Website-</p>
