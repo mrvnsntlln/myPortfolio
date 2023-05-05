@@ -37,7 +37,21 @@ const Projects = () => {
                     <p className='ml-10'>HTML, CSS, Bootstrap, Git, Github</p>
                 </div>
             </SwiperSlide>
-            <SwiperSlide className=' bg-gray-600 '><button><i className='fa-solid fa-eye'></i></button></SwiperSlide>
+            <SwiperSlide className=' bg-gray-600 '>
+                <div className='flex flex-row gap-2'>
+                    <a href='https://calculator-web-mrvnsntlln.vercel.app/'><i className='fa-solid fa-eye fa-beat-fade'></i></a>
+                    <p className='text-lg font-bold'>View Website</p>
+                </div>
+                <div className='flex flex-col lg:flex-row gap-2 lg:p-3 lg:mt-10'>
+                    <img src="/img/calc1.PNG" alt="adventour" className='rounded-3xl h-[170px] w-[270px] lg:h-[300px] lg:w-[500px]'/>
+                    {/* <img src="/img/calc2.PNG" alt="adventour" className='rounded-3xl h-[170px] w-[270px] lg:h-[300px] lg:w-[300px]'/> */}
+                </div>
+                <div>
+                    <p className='text-center text-xl'>-Calculator React Website-</p>
+                    <p>Technologies used:</p> 
+                    <p className='ml-10'>React, Tailwind, Git, Github, Vercel</p>
+                </div>
+            </SwiperSlide>
             <SwiperSlide className=' bg-primary '><button><i className='fa-solid fa-eye'></i></button></SwiperSlide>
             <SwiperSlide className=' bg-gray-600 '><button><i className='fa-solid fa-eye'></i></button></SwiperSlide>
             <SwiperSlide className=' bg-primary '><button><i className='fa-solid fa-eye'></i></button></SwiperSlide>
